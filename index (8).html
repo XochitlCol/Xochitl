@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Xóchitl Florería | Arte Floral en Colima</title>
+<meta name="description" content="Florería en Colima y Coquimatlán. Ramos, temporadas, bodas y eventos con flor fresca directo de invernadero. Compra en línea y entrega a domicilio.">
+<meta property="og:title" content="Xóchitl Florería | Arte Floral en Colima">
+<meta property="og:description" content="Flor fresca directo de invernadero. Compra en línea con entrega en Colima, Villa de Álvarez y Coquimatlán.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_MX">
+<meta property="og:site_name" content="Xóchitl Florería">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FDF2F2">
+<meta name="robots" content="index,follow">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Florist","name":"Xóchitl Florería","telephone":"+523123038968","priceRange":"$$","areaServed":["Colima","Villa de Álvarez","Coquimatlán"],"sameAs":["https://www.instagram.com/floreriaxochitl.col"],"department":[{"@type":"Florist","name":"Xóchitl Florería Colima","address":{"@type":"PostalAddress","streetAddress":"Blvd. Rodolfo Chávez Carrillo 394D, Placetas Estadio","addressLocality":"Colima","addressRegion":"Colima","addressCountry":"MX"}},{"@type":"Florist","name":"Xóchitl Florería Coquimatlán","address":{"@type":"PostalAddress","streetAddress":"5 de Mayo 35, Centro","postalCode":"28400","addressLocality":"Coquimatlán","addressRegion":"Colima","addressCountry":"MX"}}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FDF2F2;--surf:#FFFFFF;--rc:#F5D5D5;--rp:#E8B4B4;--ro:#A35D5D;--vb:#55703F;--tx:#2C2523;--mut:#6b6260;--acc:#B3263E;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:calc(90px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Montserrat',sans-serif;background:var(--bg);color:var(--tx);line-height:1.6}
+h1,h2,h3,h4{font-family:'Playfair Display',serif;font-weight:700}
+button{font-family:inherit;cursor:pointer}
+.wrap{width:92%;max-width:1200px;margin:0 auto}
+header{background:var(--surf);position:sticky;top:env(safe-area-inset-top,0px);z-index:50;border-bottom:2px solid var(--rc);box-shadow:0 4px 20px rgba(184,116,116,.1)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;flex-wrap:wrap}
+.logo{font-size:26px;letter-spacing:1px;cursor:pointer;background:none;border:0;color:var(--tx);font-family:'Playfair Display',serif;font-weight:700}
+.logo span{color:var(--ro);font-style:italic;font-weight:400}
+nav{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;max-width:100%}
+nav::-webkit-scrollbar{display:none}
+nav button{background:none;border:0;border-bottom:2px solid transparent;padding:6px 12px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1.1px;color:var(--tx);white-space:nowrap;transition:.3s}
+nav button:hover,nav button.on{color:var(--ro);border-color:var(--rp)}
+.cart-btn{position:relative;background:var(--ro);color:#fff;border:0;border-radius:50px;padding:9px 18px;font-weight:700;font-size:13px;transition:.3s}
+.cart-btn:hover{background:var(--tx)}
+.cart-btn b{background:#fff;color:var(--ro);border-radius:50%;padding:0 7px;margin-left:6px;font-size:12px}
+.sec{display:none;padding:40px 0;animation:fi .5s ease forwards}.sec.on{display:block}
+@keyframes fi{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.head{text-align:center;margin-bottom:34px}.head h2{font-size:clamp(30px,5vw,42px)}.head p{color:var(--mut);font-weight:300}
+.hero{background:linear-gradient(135deg,#FFFFFF,#F5D5D5 55%,#DCE6D2);border-radius:30px;min-height:50vh;display:flex;align-items:center;text-align:center;padding:30px;box-shadow:0 10px 30px rgba(184,116,116,.12)}
+.hero div{max-width:760px;margin:0 auto}.hero h2{font-size:clamp(30px,6vw,46px);line-height:1.1;margin-bottom:18px;color:#2C2523}.hero p{margin-bottom:26px;color:#2C2523}
+.btn{background:var(--ro);color:#fff;border:0;padding:14px 38px;border-radius:50px;font-weight:700;text-transform:uppercase;letter-spacing:1.3px;font-size:13px;transition:.3s;box-shadow:0 6px 20px rgba(184,116,116,.3);display:inline-block}
+.btn:hover{transform:scale(1.04);background:var(--tx);color:var(--bg)}
+.btn.sm{padding:10px 14px;font-size:11px;letter-spacing:.6px;box-shadow:none}
+.btn.alt{background:var(--rc);color:var(--ro)}.btn.alt:hover{background:var(--rp);color:#2C2523}
+.btn.wa{background:#1F8F4A}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:34px 0}
+.chip{background:var(--surf);border:2px solid var(--rc);color:var(--tx);padding:10px 18px;border-radius:50px;font-weight:600;font-size:13px;transition:.3s}
+.chip:hover,.chip.on{background:var(--rp);border-color:var(--rp);color:#2C2523}
+.ben{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:20px}
+.ben div{background:var(--surf);padding:26px;border-radius:20px;text-align:center;border:1px solid var(--rc)}.ben i{font-size:30px;font-style:normal}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:26px}
+.card{background:var(--surf);border-radius:25px;overflow:hidden;border:1px solid var(--rc);display:flex;flex-direction:column;transition:.3s}
+.card:hover{transform:translateY(-5px);box-shadow:0 15px 35px rgba(184,116,116,.18)}
+.art{height:170px;display:flex;align-items:center;justify-content:center;font-size:70px;background:linear-gradient(135deg,var(--rc),var(--rp));position:relative}
+.tag{position:absolute;top:12px;left:12px;background:var(--vb);color:#fff;font-size:10px;font-weight:700;padding:3px 10px;border-radius:50px;text-transform:uppercase;letter-spacing:.6px}
+.cb{padding:20px;display:flex;flex-direction:column;gap:10px;flex-grow:1}.cb h4{font-size:21px}.cb p{font-size:14px;color:var(--mut);flex-grow:1}
+.price{font-weight:700;color:var(--ro);font-size:18px}
+.sizes{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:10px}
+.sz{position:relative;cursor:pointer}
+.sz input{position:absolute;opacity:0;width:1px;height:1px}
+.sz span{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;aspect-ratio:1;border-radius:28px;border:2px solid var(--rp);background:#fff;color:#2C2523;font-size:12px;font-weight:700;text-align:center;padding:6px;line-height:1.2;transition:.25s}
+.sz span small{font-size:11px;font-weight:600;color:#8E4A4A}
+.sz:hover span{border-color:#A35D5D;transform:translateY(-2px)}
+.sz input:checked+span{background:#8E4A4A;border-color:#8E4A4A;color:#fff;box-shadow:0 6px 16px rgba(142,74,74,.35)}
+.sz input:checked+span small{color:#FFE3E3}
+.sz input:focus-visible+span{outline:3px solid #55703F;outline-offset:2px}
+select,input,textarea{width:100%;padding:12px 14px;border-radius:12px;border:2px solid var(--rc);font:inherit;font-size:14px;background:var(--surf);color:var(--tx);outline:none}
+select:focus,input:focus,textarea:focus{border-color:var(--ro)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.seasons{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px}
+.season{border-radius:24px;padding:24px;color:#fff;display:flex;flex-direction:column;gap:8px;min-height:210px}
+.season h4{font-size:22px}.season .st{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;background:rgba(255,255,255,.25);align-self:flex-start;padding:3px 12px;border-radius:50px}
+.season .btn{margin-top:auto;background:#fff;color:#2C2523;align-self:flex-start;box-shadow:none}
+.note{background:var(--rc);border-radius:16px;padding:14px 18px;font-size:13px;text-align:center;margin-top:26px}
+.over{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:90;display:none}.over.on{display:block}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(480px,100%);background:#FDF2F2;border-left:4px solid #A35D5D;z-index:100;transform:translateX(100%);transition:transform .4s;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.drawer.on{transform:none}
+.dh{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;background:linear-gradient(135deg,#A35D5D,#8E4A4A);color:#fff}.dh h3{font-size:24px}
+.x{background:none;border:0;font-size:28px;color:#fff;line-height:1}
+.db{flex:1;overflow-y:auto;padding:18px 40px}
+.item{display:grid;grid-template-columns:1fr auto;gap:4px 10px;padding:12px 14px;margin-bottom:10px;background:#fff;border-radius:18px;border-left:5px solid #55703F;box-shadow:0 4px 12px rgba(163,93,93,.12);font-size:14px}
+.qty{display:flex;align-items:center;gap:8px;grid-column:1/3}.qty button{width:28px;height:28px;border-radius:50%;border:2px solid #A35D5D;background:#F7DADA;color:#8E4A4A;font-weight:700}
+.rm{background:none;border:0;color:var(--acc);font-size:12px;margin-left:auto;text-decoration:underline}
+.df{padding:16px 36px;background:#fff;border-top:4px solid #E8B4B4}
+.deco{position:absolute;width:40px;height:54px;pointer-events:none;z-index:3}
+.d1{left:-2px;top:84px}.d2{right:-2px;top:42%;transform:scaleX(-1)}.d3{left:-2px;bottom:170px;transform:rotate(-12deg)}.d4{right:-2px;bottom:200px;transform:scaleX(-1) rotate(-8deg)}
+.tot{display:flex;justify-content:space-between;font-size:14px;margin:3px 0}.tot.g{font-weight:700;font-size:18px;color:var(--ro)}
+.fg{margin-bottom:14px}.fg label{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+fieldset{border:0;margin-bottom:16px;background:#fff;border-radius:20px;padding:14px 14px 4px;box-shadow:0 4px 12px rgba(163,93,93,.1)}legend{font-family:'Playfair Display',serif;font-size:19px;margin-bottom:10px;color:var(--ro)}
+.rad{display:flex;gap:10px;margin-bottom:12px}.rad label{flex:1;border:2px solid var(--rc);border-radius:14px;padding:10px;text-align:center;font-size:13px;font-weight:600;cursor:pointer}.rad input{display:none}.rad label:has(input:checked){background:var(--rp);border-color:var(--rp);color:#2C2523}
+.mapbox{background:var(--surf);border:2px solid var(--rc);border-radius:18px;padding:12px;margin-bottom:12px}
+.mapbox svg{width:100%;height:auto;display:block}
+.z{cursor:pointer;stroke:var(--surf);stroke-width:3;transition:.3s;outline:none}
+.z:hover,.z:focus{filter:brightness(.93);transform:translateY(-2px)}.z.sel{stroke:var(--tx);stroke-width:3;stroke-dasharray:10 5;animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-30}}
+.zt{font:600 12px Montserrat,sans-serif;fill:#2C2523;pointer-events:none;text-anchor:middle}
+.zp{font:700 13px Montserrat,sans-serif;fill:#7A2E2E;pointer-events:none;text-anchor:middle}
+.legend{font-size:12px;color:var(--mut);text-align:center;margin-top:6px}
+.sel-info{background:var(--rc);border-radius:12px;padding:10px 14px;font-size:14px;font-weight:600;text-align:center;margin-bottom:10px}
+.ok{text-align:center;padding:30px 10px}.ok h3{font-size:28px;margin-bottom:10px}
+footer{background:#8E4A4A;color:#FFFBF7;padding:50px 0;text-align:center;margin-top:50px;border-radius:50px 50px 0 0}
+footer a{color:#FFE3E3;text-decoration:underline}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;background:#1F8F4A;color:#fff;border-radius:50px;padding:12px 20px;font-weight:700;font-size:13px;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.cartfab{bottom:calc(70px + env(safe-area-inset-bottom,0px));background:#A35D5D;border:0;font-size:20px;padding:12px 18px}.cartfab b{background:#fff;color:#A35D5D;border-radius:50%;padding:0 7px;margin-left:6px;font-size:12px}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px}.gal.sm{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}
+.gt{position:relative;aspect-ratio:1;border-radius:26px;border:3px solid transparent;overflow:hidden;background:linear-gradient(135deg,#F5D5D5,#DCE6D2);display:flex;align-items:center;justify-content:center;font-size:56px;cursor:pointer;padding:0;transition:.25s}.gt:hover{transform:translateY(-3px)}
+.gt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.gt em{position:absolute;left:0;right:0;bottom:0;background:rgba(255,255,255,.93);color:#2C2523;font:700 12px Montserrat,sans-serif;padding:6px}
+.gt .ck{display:none;position:absolute;top:10px;right:10px;width:30px;height:30px;border-radius:50%;background:#8E4A4A;color:#fff;font-style:normal;font-size:16px;align-items:center;justify-content:center;font-weight:700}
+.gt.sel{border-color:#8E4A4A;box-shadow:0 8px 20px rgba(142,74,74,.35)}.gt.sel .ck{display:flex}
+.gbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;background:#fff;border-radius:20px;padding:14px 18px;margin-top:20px;border:2px solid var(--rc)}
+.dot{width:46px;height:46px;border-radius:50%;border:2px solid #A35D5D;flex-shrink:0}
+.rmx{width:32px;height:32px;border-radius:50%;border:2px solid #A35D5D;background:#F7DADA;color:#8E4A4A;font-size:20px;line-height:1;margin-left:auto;padding:0;display:flex;align-items:center;justify-content:center;font-weight:700}
+.rad label small{display:block;font-weight:400;font-size:11px;margin-top:4px;color:#6b6260}
+.rad label:has(input:checked) small{color:#2C2523}
+.fl-grid{display:grid;grid-template-columns:1fr;gap:26px}
+.fl-blk{background:#fff;border-radius:25px;border:1px solid var(--rc);padding:28px}
+.fl-blk h3{font-size:24px;color:var(--ro);border-bottom:2px solid var(--rc);padding-bottom:10px;margin-bottom:18px}
+.fi{display:flex;gap:14px;align-items:center;margin-bottom:18px}
+.fa{width:60px;height:60px;border-radius:16px;background:linear-gradient(135deg,var(--rc),var(--rp));display:flex;align-items:center;justify-content:center;font-size:30px;flex-shrink:0}
+.fi h4{font:600 16px Montserrat,sans-serif}.fi p{font-size:13px;color:var(--mut)}
+.hist{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center}
+.hist p{margin-bottom:16px;font-size:15px;color:#4a4240;text-align:justify}
+.hist blockquote{font:italic 20px/1.4 'Playfair Display',serif;color:var(--ro);border-left:5px solid var(--rp);padding-left:20px;margin:24px 0}
+.himg{border-radius:30px;height:420px;border:10px solid #fff;box-shadow:0 20px 40px rgba(163,93,93,.2);background:linear-gradient(135deg,#F5D5D5,#DCE6D2);display:flex;align-items:center;justify-content:center;font-size:110px}
+.mv{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:28px;border-top:2px solid var(--rc);padding-top:26px}
+.mv>div{background:#fff;padding:20px;border-radius:16px}.mv h4{font-size:20px;color:var(--ro);margin-bottom:8px}.mv p{font-size:14px;margin:0}
+.br{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;margin-top:20px}
+.bc{background:#fff;border-radius:25px;padding:22px;border:1px solid var(--rc);text-align:center}.bc h4{font-size:20px;margin-bottom:6px}.bc p{font-size:14px;color:var(--mut);margin-bottom:14px}
+.mp{height:300px;border-radius:15px;overflow:hidden;border:1px solid var(--rc);background:linear-gradient(135deg,#F5D5D5,#DCE6D2);display:flex;align-items:center;justify-content:center;font-size:56px;margin-bottom:14px}.mp iframe{width:100%;height:100%;border:0}
+@media(max-width:900px){.hist{grid-template-columns:1fr}.himg{height:260px;order:-1}}
+@media(max-width:640px){.row{grid-template-columns:1fr}.bar{justify-content:center}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="fl"><path d="M30 78C30 62 28 50 30 38" fill="none" stroke="#55703F" stroke-width="2.5" stroke-linecap="round"/><path d="M30 64C19 62 13 54 14 46C25 47 30 55 30 64Z" fill="#DCE6D2" stroke="#55703F" stroke-width="2"/><path d="M29 54C38 52 44 46 45 39C36 39 30 45 29 54Z" fill="#DCE6D2" stroke="#55703F" stroke-width="2"/><g fill="#F7DADA" stroke="#A35D5D" stroke-width="2"><ellipse cx="30" cy="14" rx="7" ry="11"/><ellipse cx="30" cy="14" rx="7" ry="11" transform="rotate(72 30 27)"/><ellipse cx="30" cy="14" rx="7" ry="11" transform="rotate(144 30 27)"/><ellipse cx="30" cy="14" rx="7" ry="11" transform="rotate(216 30 27)"/><ellipse cx="30" cy="14" rx="7" ry="11" transform="rotate(288 30 27)"/></g><circle cx="30" cy="27" r="5" fill="#E8B4B4" stroke="#A35D5D" stroke-width="2"/></g></defs></svg>
+<header><div class="wrap bar">
+<button class="logo" onclick="go('inicio')" aria-label="Ir al inicio">Xóchitl <span>Florería</span></button>
+<nav aria-label="Principal" id="nav">
+<button data-s="inicio" class="on">Inicio</button><button data-s="catalogo">Catálogo</button><button data-s="temporadas">Temporadas</button><button data-s="eventos">Eventos y Bodas</button><button data-s="flores">Flores</button><button data-s="historia">Nuestra Historia</button>
+</nav>
+
+</div></header>
+
+<main class="wrap">
+<section id="s-inicio" class="sec on">
+<div class="hero"><div>
+<h1 style="font-size:clamp(30px,6vw,46px);line-height:1.1;margin-bottom:18px">La elegancia de la naturaleza en cada detalle</h1>
+<p>Más de una década transformando sentimientos en arreglos florales únicos en Colima. Frescura garantizada de invernadero.</p>
+<button class="btn" onclick="go('catalogo')">Explorar Tienda</button></div></div>
+<div class="head" style="margin-top:44px;margin-bottom:0"><h2 style="font-size:32px">¿Qué quieres celebrar?</h2><p>Elige la ocasión y te mostramos el arreglo ideal.</p></div>
+<div class="chips" id="occ"></div>
+<div class="ben">
+<div><i>💎</i><h4>Calidad Premium</h4><p style="font-size:14px">Flores seleccionadas directamente de los mejores productores.</p></div>
+<div><i>⏰</i><h4>Entrega Puntual</h4><p style="font-size:14px">Tus sentimientos llegan a tiempo a cualquier parte de Colima.</p></div>
+<div><i>🏅</i><h4>+10 Años de Experiencia</h4><p style="font-size:14px">Más de una década creando momentos inolvidables en el estado.</p></div>
+</div>
+<div class="head" style="margin-top:50px"><h3 style="font-size:30px">Nuestras Sucursales</h3><p>Visítanos y conoce la frescura de nuestras flores directo de invernadero</p></div>
+<div class="br" id="br"></div>
+</section>
+
+<section id="s-catalogo" class="sec">
+<div class="head"><h2>Colecciones Exclusivas</h2><p>Diseños creados para cada emoción y celebración sin intermediarios</p></div>
+<div class="chips" id="cat-tabs"></div>
+<div class="grid" id="cat-grid"></div>
+<p class="note">Precios de ejemplo mientras se definen los oficiales.</p>
+</section>
+
+<section id="s-temporadas" class="sec">
+<div class="head"><h2>Flores para cada fecha especial</h2><p>Las fechas más especiales del año, con diseños exclusivos y pedidos con anticipación.</p></div>
+<div class="seasons" id="seasons"></div>
+<p class="note">Haz tu pedido con anticipación para asegurar tu fecha y horario de entrega.</p>
+</section>
+
+<section id="s-eventos" class="sec">
+<div class="head"><h2>Eventos y Bodas</h2><p>Diseños a la medida: cuéntanos tu proyecto y te cotizamos por WhatsApp.</p></div>
+<div class="chips" id="ev-tabs"></div>
+<div class="grid" id="ev-grid"></div>
+</section>
+<section id="s-flores" class="sec">
+<div class="head"><h2>El Alma de Xóchitl</h2><p>Variedades frescas que seleccionamos directamente en campo para tus diseños</p></div>
+<div class="fl-grid" id="fl-grid"></div>
+</section>
+
+<section id="s-historia" class="sec">
+<div class="head"><h2>Nuestra Historia</h2><p>Cultivando confianza y belleza en Colima</p></div>
+<div class="hist">
+<div>
+<p>Xóchitl Florería nació como un sueño familiar que echó raíces firmes en Colima hace más de una década, convencidos de que las flores son el lenguaje universal para conectar almas.</p>
+<blockquote>“No solo entregamos flores; somos los mensajeros de tus momentos más valiosos.”</blockquote>
+<p>Nos distingue nuestro compromiso absoluto con la frescura. Cada semana viajamos personalmente a la <strong>zona centro de México (CDMX, Estado de México, Puebla, Toluca, entre otros)</strong> para seleccionar directamente con los productores las flores de mejor botón, resistencia y aroma.</p>
+<p>Hoy, con dos sucursales en el estado, mantenemos intacta nuestra esencia: ofrecerte arte floral premium directo de invernadero y a precios justos, eliminando intermediarios para ti.</p>
+<div class="mv">
+<div><h4>🎯 Misión</h4><p>Ofrecer arte floral de la más alta calidad y frescura directo de invernadero, transformando los sentimientos de nuestros clientes en arreglos únicos y brindando un servicio humano, puntual y confiable en todo Colima.</p></div>
+<div><h4>👁️ Visión</h4><p>Ser la florería líder y de mayor confianza en el estado de Colima, reconocida por nuestra innovación constante en diseño floral, la eliminación de intermediarios y el compromiso absoluto con la satisfacción de cada cliente.</p></div>
+</div>
+</div>
+<div class="himg" role="img" aria-label="Taller floral artesanal">💐</div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">
+<div style="font:700 30px 'Playfair Display',serif;margin-bottom:16px">Xóchitl <span style="color:#FFD6D6">Florería</span></div>
+<p>Acompañándote en tus mejores momentos con frescura, trato humano y arte floral premium.</p>
+<p style="margin-top:16px;font-size:14px">📍 <a href="https://maps.google.com/maps?q=Blvd.%20Rodolfo%20Ch%C3%A1vez%20Carrillo%20394D,%20Placetas%20Estadio,%20Colima" target="_blank" rel="noopener">Sucursal Colima: Blvd. Rodolfo Chávez Carrillo 394D, Placetas Estadio</a><br>📍 <a href="https://maps.google.com/maps?q=Calle%205%20de%20Mayo%2035,%20Centro,%20Coquimatl%C3%A1n,%20Colima" target="_blank" rel="noopener">Sucursal Coquimatlán: Calle 5 de Mayo 35, Centro</a></p>
+<p style="margin-top:16px;font-size:14px"><a href="https://www.instagram.com/floreriaxochitl.col" target="_blank" rel="noopener">Instagram</a> · <a href="https://wa.me/523123038968" target="_blank" rel="noopener">WhatsApp</a></p>
+<p style="margin-top:16px;font-size:11px;opacity:.6">&copy; 2026 Xóchitl Florería. Todos los derechos reservados. Directo de invernadero.</p>
+</div></footer>
+
+<button class="fab cartfab" onclick="openCart()" aria-label="Abrir carrito">🛒<b id="cc">0</b></button>
+<a class="fab" href="https://wa.me/523123038968" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">💬 WhatsApp</a>
+<div class="over" id="over" onclick="closeCart()"></div>
+<aside class="drawer" id="drawer" aria-label="Carrito" aria-hidden="true">
+<div class="dh"><h3 id="dt">Tu carrito</h3><button class="x" onclick="closeCart()" aria-label="Cerrar">×</button></div>
+<div class="db" id="db"></div>
+<div class="df" id="df"></div>
+<svg class="deco d1" viewBox="0 0 60 80" aria-hidden="true"><use href="#fl"/></svg><svg class="deco d2" viewBox="0 0 60 80" aria-hidden="true"><use href="#fl"/></svg><svg class="deco d3" viewBox="0 0 60 80" aria-hidden="true"><use href="#fl"/></svg><svg class="deco d4" viewBox="0 0 60 80" aria-hidden="true"><use href="#fl"/></svg>
+</aside>
+
+<script>
+const WA='523123038968';let SAMEDAY=80;
+const $=id=>document.getElementById(id);
+const fmt=n=>'$'+n.toLocaleString('es-MX')+' MXN';
+const SZ=[["Chico",450],["Mediano",750],["Grande",1100]];
+let P=[
+['bu','ramos','Ramos Buchones','Máximo esplendor. Desde 50 hasta 500 rosas con accesorios de lujo.','🌹',['amor','aniv'],[["50 rosas",2500],["100 rosas",4800],["200 rosas",9200]]],
+['mx','ramos','Ramos Mixtos','Combinación armónica de texturas y colores vivos de temporada con follaje fino.','💐',['cumple','gracias'],SZ],
+['sm','ramos','Ramo de la Semana','Diseño exclusivo confeccionado con el lote floral más fresco recién llegado directo de invernadero.','🌷',['cumple','gracias','nacimiento'],SZ,'Nuevo'],
+['co','ramos','Ramo Coreano','Envoltura artística en capas de papel premium traslúcido y tonos pastel.','🎀',['amor','cumple'],[["Chico",550],["Mediano",850],["Grande",1250]]],
+['ro','clasicos','Rosas','La expresión atemporal del amor. Rosas de invernadero con botón impecable y simetría perfecta.','🌹',['amor','aniv'],[["1 docena",650],["2 docenas",1200],["3 docenas",1750]]],
+['rg','clasicos','Rosas y Girasoles','Combinación vibrante y cálida que mezcla el romance de las rosas con la alegría dorada de los girasoles.','🌻',['cumple','gracias'],SZ],
+['gi','clasicos','Girasoles','Luminosidad pura. Girasoles de gran porte con pétalos dorados impecables y centro denso.','🌻',['cumple','gracias','nacimiento'],[["3 girasoles",450],["6 girasoles",800],["12 girasoles",1500]]],
+['tu','premium','Ramo de Tulipanes','Elegancia pura. Tulipanes selectos de importación directa configurados en ramos de alta distinción.','🌷',['amor','aniv'],[["Mediano",1100],["Grande",1700]]],
+['ho','premium','Hortensias','Composiciones monumentales basadas en la frondosidad y nube de color pastel de las hortensias de invernadero.','🪻',['aniv','gracias'],[["Mediano",1300],["Grande",2000]]],
+['pe','premium','Peonías','La reina de las flores. Arreglos exclusivos de temporada estructurados con peonías importadas de suntuosos pétalos.','🌸',['amor','aniv'],[["Mediano",1800],["Grande",2800]]],
+['mp','premium','Mixtos Premium','Composiciones suntuosas que unifican orquídeas, lilis finas, follajes exóticos y rosas seleccionadas.','🪷',['aniv','gracias'],[["Mediano",1600],["Grande",2600]]],
+['q1','bodas','Ramo de Novia','Diseños personalizados, ergonómicos y con flores premium de alta resistencia para tu gran día.','💍',['bodas']],
+['q2','bodas','Ramo de XV','Arreglos juveniles y glamorosos diseñados en juego perfecto con el tono del vestido.','👑',['bodas']],
+['q3','bodas','Botonier','Pequeño detalle floral de alta costura a juego con el ramo principal para solapa del novio o papá.','🤵',['bodas']],
+['q4','bodas','Corona Floral','Tocado de flores naturales frescas entrelazadas de manera artística para la cabeza.','🌼',['bodas']],
+['q5','bodas','Ramo de Ofrenda','Arreglo floral diseñado solemnemente para ser entregado como tributo u ofrenda en el altar de la ceremonia.','🕊️',['bodas']],
+['e1','eventos','Centros de Mesa','Composiciones balanceadas diseñadas para vestir y dar vida a tus banquetes en salones o jardines.','🍽️',['eventos']],
+['e2','eventos','Jardineras','Arreglos alargados y densos ideales para situar al frente de mesas principales, templetes o escenarios.','🌿',['eventos']],
+['e3','eventos','Arreglos de Pasillo','Diseños verticales montados en pedestales o bases para guiar los pasos en iglesias o accesos principales.','⛪',['eventos']],
+['e4','eventos','Arco Floral','Instalaciones arquitectónicas monumentales de herrería o madera vestidas de flores para marcos de fotos o altares.','🌸',['eventos']],
+['e5','eventos','Arreglo para Carros','Composiciones florales con fijación magnética o de ventosa suave de alta seguridad para el vehículo de los festejados.','🚗',['eventos']],
+['e6','eventos','Medallones','Estructuras circulares u ovaladas tupidas de flor ideales para colgar en paredes de fondo, mamparas o puertas de templos.','🏵️',['eventos']],
+['f1','funebre','Coronas Fúnebres','Muestras de respeto solemnes confeccionadas con flores blancas y follajes densos tradicionales sobre tripie de madera.','🤍',['condolencias']],
+['f2','funebre','Arreglos Fúnebres','Diseños florales de respeto en pedestal o bases para colocar en capillas, salas velatorias o iglesias.','🕯️',['condolencias']],
+['f3','funebre','Cubre Cajón','Manto o arreglo floral alargado diseñado con flores finas para descansar con solemnidad sobre el ataúd.','🎗️',['condolencias']]
+];
+const CATS={ramos:'Ramos de Ocasión',clasicos:'Ramos Clásicos',premium:'Premium'};
+const EVS={bodas:'Boda y XV',eventos:'Eventos',funebre:'Arreglos Fúnebres'};
+const OCC=[['amor','❤️ Amor'],['cumple','🎂 Cumpleaños'],['aniv','🥂 Aniversario'],['gracias','🙏 Gracias'],['nacimiento','🍼 Nacimiento'],['condolencias','🕊️ Condolencias'],['bodas','💍 Bodas y XV'],['eventos','🎉 Eventos']];
+let cat='ramos',occ=null,evc='bodas',cart=[],zone=null;
+try{cart=JSON.parse(localStorage.getItem('xc')||'[]')}catch(e){cart=[]}
+const save=()=>{try{localStorage.setItem('xc',JSON.stringify(cart))}catch(e){}};
+
+function go(s,arg){
+ document.querySelectorAll('.sec').forEach(x=>x.classList.remove('on'));
+ document.querySelectorAll('#nav button').forEach(b=>b.classList.toggle('on',b.dataset.s===s));
+ $('s-'+s).classList.add('on');
+ document.title={inicio:'Xóchitl Florería | Arte Floral en Colima',catalogo:'Catálogo de ramos y arreglos | Xóchitl Florería',temporadas:'Flores para cada fecha especial | Xóchitl Florería',eventos:'Eventos y Bodas | Xóchitl Florería',flores:'Nuestras flores | Xóchitl Florería',historia:'Nuestra Historia | Xóchitl Florería'}[s];
+ if(s==='catalogo'){if(arg!==undefined)occ=arg;renderCat()}
+ if(s==='eventos'){if(arg)evc=arg;renderEv()}
+ window.scrollTo({top:0,behavior:'smooth'});
+ if(location.hash!=='#'+s)history.replaceState(null,'','#'+s);
+}
+document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>go(b.dataset.s));
+
+function card(p){
+ const q=!p[6],sel=q?'':`<div class="sizes" role="radiogroup" aria-label="Elige tu tamaño">${p[6].map((s,i)=>`<label class="sz"><input type="radio" name="sz-${p[0]}" value="${i}" ${i?'':'checked'} onchange="pr('${p[0]}')"><span>${s[0]}<small>${fmt(s[1])}</small></span></label>`).join('')}</div>`;
+ const act=q?`<button class="btn sm wa" onclick="openGal('${p[0]}')">Ver diseños y cotizar</button>`:`<button class="btn sm" onclick="add('${p[0]}')">Agregar al carrito</button>`;
+ return `<article class="card"><div class="art" aria-hidden="true">${p[4]}<img src="productos/${p[0]}.jpg" alt="" loading="lazy" onerror="this.remove()" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">${p[7]?`<span class="tag">${p[7]}</span>`:''}</div><div class="cb"><h4>${p[2]}</h4><p>${p[3]}</p>${q?'':`<div class="price" id="pr-${p[0]}">${fmt(p[6][0][1])}</div>`}${sel}${act}</div></article>`;
+}
+const szv=id=>+document.querySelector('input[name="sz-'+id+'"]:checked').value;
+function pr(id){const p=P.find(x=>x[0]===id);$('pr-'+id).textContent=fmt(p[6][szv(id)][1])}
+function tabs(el,obj,cur,fn){el.innerHTML=Object.entries(obj).map(([k,v])=>`<button class="chip ${cur===k?'on':''}" onclick="${fn}('${k}')">${v}</button>`).join('')}
+function renderCat(){
+ let h=Object.entries(CATS).map(([k,v])=>`<button class="chip ${cat===k&&!occ?'on':''}" onclick="occ=null;cat='${k}';renderCat()">${v}</button>`).join('');
+ if(occ)h=`<button class="chip on" onclick="occ=null;renderCat()">Ocasión: ${OCC.find(o=>o[0]===occ)[1]} ✕</button>`+h;
+ $('cat-tabs').innerHTML=h;
+ $('cat-grid').innerHTML=P.filter(p=>p[6]&&!p.off&&(occ?p[5].includes(occ):p[1]===cat)).map(card).join('');
+}
+function renderEv(){$('ev-tabs').style.display='';$('ev-grid').className='grid';tabs($('ev-tabs'),EVS,evc,'setEv');$('ev-grid').innerHTML=P.filter(p=>p[1]===evc).map(card).join('')}
+function setEv(k){evc=k;renderEv()}
+$('occ').innerHTML=OCC.map(o=>`<button class="chip" onclick="${['bodas','eventos','condolencias'].includes(o[0])?`go('eventos','${o[0]==='condolencias'?'funebre':o[0]}')`:`go('catalogo','${o[0]}')`}">${o[1]}</button>`).join('');
+
+/* Temporadas */
+const T=[['San Valentín',2,14,'#B3263E','❤️'],['Día de la Primavera',3,21,'#55703F','🌼'],['Día de las Madres',5,10,'#9C4F4F','💐'],['Día del Padre',6,21,'#3E5C76','🌻'],['Amor y Amistad',9,14,'#9B4F7A','💝'],['Día de Muertos',11,2,'#A8570A','🏵️'],['Navidad',12,24,'#2F6B4F','🎄']];
+(function(){
+ const n=new Date(),t=new Date(n.getFullYear(),n.getMonth(),n.getDate());
+ const l=T.map(s=>{let d=new Date(t.getFullYear(),s[1]-1,s[2]);if(d<t)d=new Date(t.getFullYear()+1,s[1]-1,s[2]);return[...s,Math.round((d-t)/864e5)]}).sort((a,b)=>a[5]-b[5]);
+ $('seasons').innerHTML=l.map(s=>`<article class="season" style="background:${s[3]}"><span class="st">${s[5]<=30?'Disponible ahora':'Próximamente · faltan '+s[5]+' días'}</span><h4>${s[4]} ${s[0]}</h4><p style="font-size:14px">Diseños exclusivos de temporada.</p><button class="btn sm" onclick="go('catalogo')">Ver diseños</button></article>`).join('');
+})();
+
+/* Carrito */
+function add(id){const p=P.find(x=>x[0]===id),i=szv(id),k=id+i,f=cart.find(c=>c.k===k);
+ f?f.q++:cart.push({k,n:p[2],s:p[6][i][0],p:p[6][i][1],q:1});save();upd();openCart()}
+function chg(k,d){const c=cart.find(x=>x.k===k);c.q+=d;if(c.q<1)cart=cart.filter(x=>x.k!==k);save();upd();drawCart()}
+function rm(k){cart=cart.filter(x=>x.k!==k);save();upd();drawCart()}
+const sub=()=>cart.reduce((a,c)=>a+c.p*c.q,0);
+function upd(){$('cc').textContent=cart.reduce((a,c)=>a+c.q,0)}
+function openCart(){drawCart();$('drawer').classList.add('on');$('drawer').setAttribute('aria-hidden','false');$('over').classList.add('on')}
+function closeCart(){$('drawer').classList.remove('on');$('drawer').setAttribute('aria-hidden','true');$('over').classList.remove('on')}
+function drawCart(){
+ $('dt').textContent='Tu carrito';
+ if(!cart.length){$('db').innerHTML='<p style="text-align:center;margin-top:40px">Aún no tienes arreglos en tu carrito. ¡Explora el catálogo!</p>';$('df').innerHTML='<button class="btn" style="width:100%" onclick="closeCart();go(\'catalogo\')">Ver catálogo</button>';return}
+ $('db').innerHTML=cart.map(c=>`<div class="item"><div><b>${c.n}</b><br><small>${c.s}</small></div><div>${fmt(c.p*c.q)}</div><div class="qty"><button onclick="chg('${c.k}',-1)" aria-label="Quitar uno">−</button>${c.q}<button onclick="chg('${c.k}',1)" aria-label="Agregar uno">+</button><button class="rmx" onclick="rm('${c.k}')" aria-label="Eliminar producto">−</button></div></div>`).join('');
+ $('df').innerHTML=`<div class="tot g"><span>Subtotal</span><span>${fmt(sub())}</span></div><p style="font-size:12px;color:var(--mut);margin:6px 0 12px">El envío se calcula en el siguiente paso.</p><button class="btn" style="width:100%" onclick="checkout()">Continuar con mi pedido</button>`;
+}
+
+/* Zonas de entrega (precios de ejemplo) */
+const Z=[['va1','Villa de Álvarez','Poniente',90,60,20,160,100],['va2','Villa de Álvarez','Centro',70,230,20,150,100],['va3','Villa de Álvarez','Oriente',100,390,20,150,100],
+['co1','Colima','Placetas / Estadio',70,60,130,160,100],['co2','Colima','Centro',60,230,130,150,100],['co3','Colima','Sur / Oriente',90,390,130,150,100],
+['cq1','Coquimatlán','Centro',120,60,240,230,95],['cq2','Coquimatlán','Periferia',150,300,240,240,95]];
+const shade=p=>p<=70?'#F7DADA':p<=100?'#EFC0C0':'#E5A3A3';
+function mapSVG(){return `<svg viewBox="0 0 600 350" role="group" aria-label="Mapa de zonas de entrega"><path id="rt" d="M110 70 L300 70 L300 180 L140 180 L140 285 L420 285" fill="none"/>
+${Z.map(z=>`<g><rect class="z ${zone===z[0]?'sel':''}" tabindex="0" role="button" aria-label="${z[1]} ${z[2]} ${fmt(z[3])}" data-z="${z[0]}" x="${z[4]}" y="${z[5]}" width="${z[6]}" height="${z[7]}" rx="18" fill="${shade(z[3])}"/><text class="zt" x="${z[4]+z[6]/2}" y="${z[5]+z[7]/2-12}">${z[1]}</text><text class="zt" x="${z[4]+z[6]/2}" y="${z[5]+z[7]/2+4}" style="font-weight:400">${z[2]}</text><text class="zp" x="${z[4]+z[6]/2}" y="${z[5]+z[7]/2+24}">$${z[3]}</text></g>`).join('')}
+<circle r="7" fill="#B3263E"><animateMotion dur="9s" repeatCount="indefinite"><mpath href="#rt"/></animateMotion></circle></svg>`}
+function pickZone(id){zone=id;const z=Z.find(x=>x[0]===id);$('mapbox').innerHTML=mapSVG();bindMap();$('zinfo').textContent=`📍 ${z[1]} · ${z[2]} — ${fmt(z[3])}`;totals()}
+function bindMap(){document.querySelectorAll('.z').forEach(e=>{e.onclick=()=>pickZone(e.dataset.z);e.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();pickZone(e.dataset.z)}}})}
+
+/* Checkout */
+function checkout(){
+ const today=new Date().toISOString().slice(0,10);
+ $('dt').textContent='Finalizar pedido';
+ $('db').innerHTML=`<form id="ck" onsubmit="pay(event)" novalidate>
+<fieldset><legend>¿Quién envía?</legend>
+<div class="fg"><label for="sn">Nombre *</label><input id="sn" required autocomplete="name"></div>
+<div class="row"><div class="fg"><label for="sp">Teléfono *</label><input id="sp" type="tel" required autocomplete="tel"></div><div class="fg"><label for="se">Correo</label><input id="se" type="email" autocomplete="email"></div></div></fieldset>
+<fieldset><legend>¿Quién recibe?</legend>
+<div class="fg"><label for="rn">Nombre *</label><input id="rn" required></div>
+<div class="fg"><label for="rp">Teléfono de quien recibe</label><input id="rp" type="tel"></div>
+<div class="rad" role="radiogroup"><label><input type="radio" name="md" value="dom" checked onchange="mode()">🚚 A domicilio</label><label><input type="radio" name="md" value="suc" onchange="mode()">🏪 Recoger</label></div>
+<div id="m-dom"><div class="mapbox" id="mapbox">${mapSVG()}</div><div class="legend">Toca tu zona. Entrega inmediata en Colima, Villa de Álvarez y Coquimatlán. Zonas y precios de ejemplo.</div><div class="sel-info" id="zinfo" style="margin-top:10px">Selecciona tu zona en el mapa</div>
+<div class="fg"><label for="ad">Calle, número y referencias *</label><input id="ad"></div>
+<a class="btn sm wa" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent('¡Hola, Xóchitl Florería! Necesito cotizar una entrega fuera de Colima, Villa de Álvarez o Coquimatlán.')}">Otro municipio o estado: cotizar por mensaje</a></div>
+<div id="m-suc" style="display:none"><div class="rad" role="radiogroup" aria-label="Sucursal"><label><input type="radio" name="sc" value="Colima · Blvd. Rodolfo Chávez Carrillo 394D, Placetas Estadio" checked><span>📍 Sucursal Colima<small>Blvd. Rodolfo Chávez Carrillo 394D, Placetas Estadio</small></span></label><label><input type="radio" name="sc" value="Coquimatlán · 5 de Mayo 35, Centro"><span>📍 Sucursal Coquimatlán<small>5 de Mayo 35, Centro</small></span></label></div></div></fieldset>
+<fieldset><legend>Fecha y hora de entrega</legend><div class="row"><div class="fg"><label for="fd">Fecha *</label><input id="fd" type="date" min="${today}" required onchange="totals()"></div><div class="fg"><label for="fh">Hora *</label><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><select id="fh"><option value="" disabled selected>Hora</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option></select><select id="fp" aria-label="AM o PM"><option>AM</option><option>PM</option></select></div></div></div>
+<p class="legend" style="text-align:left">Entrega a domicilio el mismo día con costo extra de ${fmt(SAMEDAY)}.</p></fieldset>
+<fieldset><legend>Dedicatoria</legend><div class="fg"><label for="dd">Escribe el mensaje que acompañará tus flores</label><textarea id="dd" rows="3" maxlength="200"></textarea></div></fieldset>
+<fieldset><legend>Pago</legend><p style="font-size:13px">Pago seguro con tarjeta, OXXO o transferencia vía Mercado Pago.</p></fieldset>
+<div id="tt"></div><div id="er" role="alert" style="color:var(--acc);font-size:13px;margin:8px 0"></div>
+<button class="btn" style="width:100%" type="submit">Pagar y confirmar pedido</button>
+<button type="button" class="rm" style="margin:12px 0" onclick="drawCart()">← Volver al carrito</button></form>`;
+ bindMap();totals();$('db').scrollTop=0;
+}
+const isDom=()=>document.querySelector('input[name=md]:checked').value==='dom';
+function mode(){$('m-dom').style.display=isDom()?'block':'none';$('m-suc').style.display=isDom()?'none':'block';totals()}
+function calc(){const z=zone&&isDom()?Z.find(x=>x[0]===zone)[3]:0,d=$('fd')&&$('fd').value,sd=isDom()&&d===new Date().toISOString().slice(0,10)?SAMEDAY:0;return{s:sub(),z,sd,t:sub()+z+sd}}
+function totals(){const c=calc();$('tt').innerHTML=`<div class="tot"><span>Subtotal</span><span>${fmt(c.s)}</span></div>${isDom()?`<div class="tot"><span>Envío</span><span>${zone?fmt(c.z):'Elige zona'}</span></div>`:''}${c.sd?`<div class="tot"><span>Entrega el mismo día</span><span>${fmt(c.sd)}</span></div>`:''}<div class="tot g"><span>Total</span><span>${fmt(c.t)}</span></div>`}
+function pay(e){
+ e.preventDefault();const v=id=>$(id).value.trim(),er=$('er');
+ if(!v('sn')||!v('sp')||!v('rn')||!v('fd')||!v('fh')){er.textContent='Completa nombre, teléfono, quien recibe, fecha y hora.';return}
+ if(isDom()&&(!zone||!v('ad'))){er.textContent='Selecciona tu zona en el mapa e indica la dirección.';return}
+ const c=calc(),z=zone&&isDom()?Z.find(x=>x[0]===zone):null;
+ const msg=`¡Hola, Xóchitl Florería! Nuevo pedido:%0A${cart.map(i=>`• ${i.q}× ${i.n} (${i.s})`).join('%0A')}%0A%0AEnvía: ${v('sn')} · ${v('sp')}${v('se')?' · '+v('se'):''}%0ARecibe: ${v('rn')}%0A${z?`Domicilio: ${z[1]} ${z[2]}, ${v('ad')}`:'Recoge en: '+document.querySelector('input[name=sc]:checked').value}%0AFecha: ${v('fd')} ${v('fh')}:00 ${v('fp')}%0ADedicatoria: ${v('dd')||'—'}%0ATotal: ${fmt(c.t)}`;
+ /* PAGO REAL: aquí se llamará a tu backend (Netlify/Vercel Function) que crea la preferencia de Mercado Pago y devuelve la URL de pago. Por ahora es modo demostración. */
+ cart=[];save();upd();
+ $('dt').textContent='Pedido recibido';$('df').innerHTML='';
+ $('db').innerHTML=`<div class="ok"><div style="font-size:60px">💐</div><h3>¡Gracias por tu pedido! Ya estamos preparando tus flores.</h3><p>Te enviaremos la confirmación por WhatsApp.</p><p style="font-size:12px;color:var(--mut);margin:14px 0">Modo demostración: aún no se realiza ningún cobro.</p><a class="btn wa" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${msg}">Confirmar por WhatsApp</a></div>`;
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCart()});
+const FL=[['Todo el Año',[['Rosas de Invernadero','Variedades Freedom (roja), Topaz (rosa) y Mondial (blanca) de tallo largo.','🌹'],['Gerberas Radiantes','Colores encendidos con centros oscuros y excelente rigidez de tallo natural.','🌼'],['Lilis y Alstroemerias','Flores de apertura lenta que garantizan aroma y vida en casa por bastantes días.','🪷'],['Girasoles','Disponibilidad permanente gracias a cultivos controlados de invernadero con un centro denso y corona dorada.','🌻'],['Naturaleza Muerta (Estatice)','Flores deshidratadas de colores firmes (morado, blanco, rosa) ideales para una durabilidad excepcional.','💜'],['Gipsofilia (Nube)','Pequeños ramilletes blancos y esponjosos que aportan volumen, luz y romanticismo a los diseños.','☁️'],['Mini Rosas','Ramilletes minuciosos de botones pequeños en hermosas tonalidades, ideales para trabajos detallados.','🌹'],['Mini Gerberas','Versión compacta, simétrica y alegre, disponible en una amplia gama de colores encendidos.','🌼']]],
+['De Temporada',[['Tulipanes Holandeses','<strong>Temporada de Invierno (Diciembre a Marzo):</strong> Bulbos selectos de importación que destacan por su elegancia estilizada.','🌷'],['Hortensias','<strong>Temporada de Primavera y Verano (Mayo a Agosto):</strong> Grandes e imponentes pompones de agua en tonos azules, rosas y blancos.','🪻'],['Peonías','<strong>Temporada de Primavera (Principalmente Mayo y Junio):</strong> La reina de las flores, famosa por su suntuosa apertura multicapa y aroma exclusivo.','🌸'],['Lisiantus','<strong>Temporada de Verano a Otoño (Junio a Octubre):</strong> Flores de apariencia sedosa y delicada que asemejan rosas de alta costura.','💮']]],
+['Follajes Finos',[['Eucalipto Dólar y Gunny','Aporta un aroma balsámico relajante y tonos verde cenizo mate sofisticados.','🌿'],['Clavo y Aralia Japónica','Hojas lustrosas que dan estructura, soporte y volumen verde premium a cada ramo.','🍃'],['Pino tipo Tulia','Follaje de textura suave y cónica con un color verde brillante que aporta frescura natural y aroma.','🌲'],['Leather (Helecho Cuero)','Follaje plano tradicional de gran resistencia y color verde intenso, ideal para las bases de los arreglos.','🌿'],['Ruscus','Hojas pequeñas y estilizadas dispuestas en varas flexibles de verde profundo y una excelente durabilidad.','🍃'],['Clavo Japonés','Hojas densas, brillantes y de silueta compacta que otorgan un marco sofisticado al contorno floral.','☘️'],['Limonium','Estructuras silvestres, ramificadas y diminutas, idóneas para dar sutiles toques de relleno en tonos lila o blanco.','🪻']]]];
+const sl=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-');
+function renderFl(){$('fl-grid').innerHTML=FL.map((g,gi)=>`<div class="fl-blk"><h3>${g[0]}</h3><div class="gal sm">${g[1].map((f,i)=>`<button class="gt" onclick="openVar(${gi},${i})" aria-label="${f[0]}"><span aria-hidden="true">${f[2]}</span><img src="flores/${sl(f[0])}.jpg" alt="" loading="lazy" onerror="this.remove()"><em>${f[0]}</em></button>`).join('')}</div></div>`).join('')}
+const VAR={'Rosas de Invernadero':[['Freedom','#C1121F','Roja clásica, botón grande y tallo largo'],['Topaz','#F4A3B5','Rosa suave, botón redondeado'],['Mondial','#FFFFFF','Blanca pura, botón alto y elegante'],['Naranja','#F28C28','Tono cálido, botón medio'],['Amarilla','#F4D03F','Luminosa, ideal para agradecer'],['Lavanda','#B79AD6','Tono delicado y poco común']],
+'Gerberas Radiantes':[['Roja','#D62839','Pétalo amplio y centro oscuro'],['Rosa','#F48FB1','Forma de margarita grande'],['Naranja','#F28C28','Color encendido'],['Amarilla','#F6C90E','Alegre y luminosa'],['Blanca','#FFFFFF','Elegante, centro oscuro']],
+'Lilis y Alstroemerias':[['Lili oriental rosa','#F2A1C0','Flor grande y perfumada'],['Lili blanca','#FFFFFF','Trompeta amplia, aroma intenso'],['Alstroemeria mixta','#F28C8C','Racimos de flores pequeñas manchadas'],['Alstroemeria amarilla','#F4D03F','Racimos de flores pequeñas']],
+'Girasoles':[['Clásico dorado','#F2B705','Pétalos dorados, centro oscuro denso'],['Naranja','#E8761A','Pétalos naranja intenso'],['Bicolor','#C0501B','Pétalos con tonos rojizos'],['Mini girasol','#F6C90E','Tamaño compacto']],
+'Tulipanes Holandeses':[['Rojo','#C1121F','Copa clásica'],['Rosa','#F4A3B5','Copa redondeada'],['Blanco','#FFFFFF','Copa estilizada'],['Amarillo','#F4D03F','Copa alargada'],['Morado','#7D4E9E','Copa alta']],
+'Hortensias':[['Azul','#6C8FD0','Pompón grande'],['Rosa','#F4A3B5','Pompón grande'],['Blanca','#FFFFFF','Pompón voluminoso'],['Verde lima','#B6D58C','Pompón de tono suave']],
+'Peonías':[['Rosa','#F4A3B5','Flor multicapa'],['Blanca','#FFFFFF','Flor doble'],['Coral','#F58A7B','Flor semidoble']],
+'Mini Rosas':[['Rosa','#F4A3B5','Botón pequeño'],['Blanca','#FFFFFF','Botón pequeño'],['Roja','#C1121F','Botón pequeño'],['Naranja','#F28C28','Botón pequeño']]};
+VAR['Mini Gerberas']=VAR['Gerberas Radiantes'];
+function openVar(gi,i){const f=FL[gi][1][i],v=VAR[f[0]]||[];$('fl-grid').innerHTML=`<div class="fl-blk"><button class="rm" onclick="renderFl()">← Volver a las flores</button><h3 style="margin-top:12px">${f[2]} ${f[0]}</h3><p style="margin-bottom:18px">${f[1]}</p>${v.length?v.map(x=>`<div class="fi"><span class="dot" style="background:${x[1]}"></span><div><h4>${x[0]}</h4><p>${x[2]}</p></div></div>`).join(''):'<p style="margin-bottom:14px">Pregúntanos por las variedades disponibles.</p>'}<a class="btn sm wa" target="_blank" rel="noopener" href="https://wa.me/${WA}?text=${encodeURIComponent('¡Hola, Xóchitl Florería! Quiero preguntar por la disponibilidad de: '+f[0])}">Preguntar disponibilidad</a></div>`;window.scrollTo({top:0,behavior:'smooth'})}
+const MAPS_EMBED=!/claude/i.test(location.hostname);
+const BR=[['Sucursal Colima','Boulevard Rodolfo Chávez Carrillo 394D, Placetas Estadio, Colima, Col.','X%C3%B3chitl%20Florer%C3%ADa%20Blvd.%20Rodolfo%20Ch%C3%A1vez%20Carrillo%20394D,%20Colima'],['Sucursal Coquimatlán','5 de Mayo 35, Centro, 28400 Coquimatlán, Col.','X%C3%B3chitl%20Florer%C3%ADa%205%20de%20Mayo%2035,%20Coquimatl%C3%A1n,%20Colima']];
+function renderBr(){$('br').innerHTML=BR.map(b=>`<div class="bc"><h4>📍 ${b[0]}</h4><p>${b[1]}</p><div class="mp">${MAPS_EMBED?`<iframe title="Mapa ${b[0]}" loading="lazy" src="https://maps.google.com/maps?q=${b[2]}&z=15&output=embed"></iframe>`:'🗺️'}</div><a class="btn sm" target="_blank" rel="noopener" href="https://maps.google.com/maps?q=${b[2]}">Cómo llegar</a> <a class="btn sm alt" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${b[2]}">⭐ Ver opiniones en Google</a></div>`).join('')}
+const NG=6;
+function openGal(id){const p=P.find(x=>x[0]===id);$('ev-tabs').style.display='none';$('ev-grid').className='';
+ $('ev-grid').innerHTML=`<button class="rm" onclick="renderEv()">← Volver a Eventos y Bodas</button><h3 style="font-size:28px;margin:12px 0 6px">${p[2]}</h3><p style="margin-bottom:18px">Elige una o varias imágenes como referencia y las cotizamos por WhatsApp.</p><div class="gal">${Array.from({length:NG},(_,i)=>`<button class="gt" aria-pressed="false" data-i="${i+1}" onclick="pick(this)" aria-label="Diseño ${i+1}"><span aria-hidden="true">${p[4]}</span><img src="galeria/${id}-${i+1}.jpg" alt="" loading="lazy" onerror="this.remove()"><em>Diseño ${i+1}</em><i class="ck">✓</i></button>`).join('')}</div><div class="fg" style="margin-top:18px"><label for="gnote">Fecha, lugar y detalles (opcional)</label><input id="gnote" placeholder="Ej. 15 de mayo, jardín en Colima, tonos blancos"></div><div class="gbar"><span id="gcount" role="status">Ninguna seleccionada</span><button class="btn sm wa" onclick="sendGal('${id}')">Cotizar por WhatsApp</button></div>`;window.scrollTo({top:0,behavior:'smooth'})}
+function picked(){return [...document.querySelectorAll('.gt.sel')].map(b=>b.dataset.i)}
+function pick(b){b.classList.toggle('sel');b.setAttribute('aria-pressed',b.classList.contains('sel'));const n=picked().length;$('gcount').style.color='';$('gcount').textContent=n?n+(n>1?' seleccionadas':' seleccionada'):'Ninguna seleccionada'}
+function sendGal(id){const p=P.find(x=>x[0]===id),s=picked();if(!s.length){$('gcount').textContent='Elige al menos una imagen';$('gcount').style.color='#B3263E';return}
+ const n=$('gnote').value.trim(),m=`¡Hola, Xóchitl Florería! Quiero cotizar: ${p[2]}.\nDiseños de referencia elegidos: ${s.map(i=>'Diseño '+i).join(', ')}.${n?'\nDetalles: '+n:''}\n¿Me ayudan con precio y disponibilidad?`;window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(m),'_blank')}
+
+/* PRECIOS DESDE HOJA DE CÁLCULO: publica tu Google Sheet como CSV y pega su enlace aquí (o sube precios.csv junto al index.html). Columnas: id, producto, tamano, precio, activo */
+const PRECIOS_URL='precios.csv';
+async function loadPrices(){try{const r=await fetch(PRECIOS_URL+(PRECIOS_URL.includes('?')?'&':'?')+'t='+Date.now());if(!r.ok)return;const rows=(await r.text()).replace(/^\uFEFF/,'').trim().split(/\r?\n/).slice(1).map(x=>x.split(',')),m={},seen={};
+ rows.forEach(([id,,s,pr,ac])=>{const v=+String(pr||'').replace(/[^0-9.]/g,'');if(id==='mismo-dia'){if(v)SAMEDAY=v;return}if(id.startsWith('zona-')){const z=Z.find(x=>x[0]===id.slice(5));if(z&&v)z[3]=v;return}seen[id]=1;if(!v||/^no$/i.test((ac||'').trim()))return;(m[id]=m[id]||[]).push([(s||'').trim(),v])});
+ P.forEach(p=>{if(!p[6])return;if(m[p[0]])p[6]=m[p[0]];else if(seen[p[0]])p.off=true});renderCat()}catch(e){}}
+upd();renderCat();renderEv();renderFl();renderBr();loadCatalog();
+function parseCSV(t){const out=[];let r=[],f='',q=false;for(let i=0;i<t.length;i++){const c=t[i];if(q){if(c==='"'){if(t[i+1]==='"'){f+='"';i++}else q=false}else f+=c}else if(c==='"')q=true;else if(c===','){r.push(f);f=''}else if(c==='\n'||c==='\r'){if(c==='\r'&&t[i+1]==='\n')i++;r.push(f);out.push(r);r=[];f=''}else f+=c}if(f||r.length){r.push(f);out.push(r)}return out}
+async function loadCatalog(){try{const r=await fetch(PRECIOS_URL+(PRECIOS_URL.includes('?')?'&':'?')+'t='+Date.now());if(!r.ok)return;const rows=parseCSV((await r.text()).replace(/^\uFEFF/,'').trim()).slice(1),cat={},order=[];
+rows.forEach(c=>{const [tipo='',id='',nom='',desc='',catg='',occ='',emo='',tam='',pr='',ac='',tag='']=c.map(x=>x.trim());const v=+String(pr).replace(/[^0-9.]/g,'');
+if(tipo==='ajuste'){if(id==='mismo-dia'&&v)SAMEDAY=v;return}
+if(tipo==='envio'){const z=Z.find(x=>x[0]===id);if(z&&v)z[3]=v;return}
+if(tipo!=='producto'||!id||/^no$/i.test(ac))return;
+if(!cat[id]){cat[id]={id,nom,desc,catg,occ:occ.split('|').map(s=>s.trim()).filter(Boolean),emo:emo||'🌸',tag,sizes:[]};order.push(id)}
+if(v&&tam)cat[id].sizes.push([tam,v])});
+const list=order.map(k=>{const p=cat[k];return[p.id,p.catg,p.nom,p.desc,p.emo,p.occ,p.sizes.length?p.sizes:null,p.tag]});
+if(list.length){P=list;renderCat();renderEv()}}catch(e){}}
+(function(){const h=location.hash.slice(1);if(['catalogo','temporadas','eventos','flores','historia'].includes(h))go(h)})();
+</script>
+</body>
+</html>
